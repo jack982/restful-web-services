@@ -14,13 +14,13 @@ public class PostDaoService {
 	private static List<Post> posts = new ArrayList<Post>();
 
 	private static int postCount = 3;
-
+/*
 	static {
 		posts.add(new Post(1, "Post 1", new Date(), new User(1, "Adam", new Date())));
 		posts.add(new Post(2, "Post 2", new Date(), new User(2, "Eve", new Date())));
 		posts.add(new Post(3, "Post 3", new Date(), new User(1, "Adam", new Date())));
 	}
-
+*/
 	public List<Post> findAll() {
 		return posts;
 	}
